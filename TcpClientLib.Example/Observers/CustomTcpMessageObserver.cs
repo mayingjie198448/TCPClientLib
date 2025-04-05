@@ -1,8 +1,7 @@
-using Microsoft.Extensions.Logging;
 using TcpClientLib.Models;
 using TcpClientLib.Observers;
 
-namespace TCPClientTest.Observers
+namespace TcpClientLib.Example.Observers
 {
     /// <summary>
     /// 自定义TCP消息观察者

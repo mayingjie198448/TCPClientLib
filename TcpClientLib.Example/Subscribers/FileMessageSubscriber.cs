@@ -1,7 +1,7 @@
 using TcpClientLib.Interfaces;
 using TcpClientLib.Models;
 
-namespace TCPClientTest.Subscribers
+namespace TcpClientLib.Example.Subscribers
 {
     /// <summary>
     /// 文件消息订阅器

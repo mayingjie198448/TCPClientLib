@@ -79,10 +79,12 @@ namespace TcpClientLib.Services
                         try
                         {
                             observer.OnNext(message);
-                        }
-                        catch (Exception ex)
+                        } catch (Exception ex)
                         {
-                            ((IObserver<TcpMessage>)observer).OnError(ex);
+                            ((IObserver<TcpMessage>) observer).OnError(ex);
+                        } finally
+                        {
+                            ((IObserver<TcpMessage>) observer).OnCompleted();
                         }
                     }
 

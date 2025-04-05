@@ -1,12 +1,12 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using TcpClientLib.Example.Observers;
+using TcpClientLib.Example.Subscribers;
 using TcpClientLib.Extensions;
 using TcpClientLib.Interfaces;
 using TcpClientLib.Models;
 using TcpClientLib.Observers;
-using TCPClientTest.Observers;
-using TCPClientTest.Subscribers;
 
 var builder = Host.CreateDefaultBuilder(args);
 
